@@ -1,0 +1,18 @@
+{
+  "overrides": [
+    {
+      "files": "*.rb",
+      "options": {
+        "parser": "ruby",
+        "plugins": ["prettier-plugin-ruby"]
+      }
+    },
+    {
+      "files": "*.erb",
+      "options": {
+        "parser": "html",
+        "plugins": ["prettier-plugin-ruby"]
+      }
+    }
+  ]
+}
