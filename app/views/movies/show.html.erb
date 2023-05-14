@@ -1,6 +1,5 @@
 <section class="movie_details">
   <div class="details">
-
     <h1><%= @movie.title %></h1>
     <h2><%= year_of(@movie) %>
       &bull;
@@ -13,5 +12,8 @@
       </tr>
     </table>
   </div>
+</section>
 
+<section class='admin'>
+  <%= link_to 'Edit', edit_movie_path(@movie), class: 'button' %>
 </section>
